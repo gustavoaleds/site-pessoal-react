@@ -1,20 +1,16 @@
 import React from 'react';
 import './App.css';
-import Menu from "./components/Menu/Menu";
-import LadoinformacoesHome from './components/LadoInformacoesHome/LadoInformacoesHome';
-import Portfolio from './components/Portfolio/Portfolio';
-import DevCounter from './components/DevCounter/DevCounter';
-import Formulario from './components/Formulario/Formulario';
-import Contato from './components/Contato/Contato'
-
+import { BrowserRouter as  Router, Routes, Route } from "react-router-dom"
+import Home from 'pages/Home/index.js';
 function App() {
 
   return(
-    <div>
-    <Menu/>
-    <Contato/>
-    <Formulario/>
-    </div>
+// Rotas
+<Router>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+    </Routes>
+</Router>
   )
 
 }

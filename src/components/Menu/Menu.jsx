@@ -6,9 +6,9 @@ function Menu() {
     <div className="divMenu">
       <nav>
           <ul>
-              <li>Home</li>
-              <li>Portfolio</li>
-              <li>Contato</li>
+              <li><a>Home</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Contato</a></li>
           </ul>
       </nav>
       <img className="logo" src={logoAleds} alt="Imagem da logo do site Aleds" />
