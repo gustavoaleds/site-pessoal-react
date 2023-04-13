@@ -1,5 +1,5 @@
 .divCounter{
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 24.99vw;
@@ -21,10 +21,12 @@
   line-height: 38px;
   text-transform: uppercase;
   color: #410550;
+  text-align: center;
 }
 
 .footerCounter{
   text-transform: uppercase;
+  text-align: center;
 }
 
 .counterNumber{
@@ -34,6 +36,7 @@
   font-size: 60px;
   line-height: 75px;
   color: #410550;
+  text-align: center;
 }
 
 .typeCounter{
@@ -45,5 +48,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 
+}
+
+@media(min-width: 320px) and (max-width:425px) {
+  .divCounter{
+    position: unset;
+    width: 100vw;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(180deg, #ACBFF2 0%, #EFB9EF 100%);
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }

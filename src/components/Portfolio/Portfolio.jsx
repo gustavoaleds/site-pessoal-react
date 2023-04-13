@@ -24,6 +24,25 @@ function Portfolio(){
            <p>Lorem ipsum dolor sit amet consectetur.</p>
            <button>Acessar Demo</button>
       </div>
+
+      <div className="item-galeria">
+           <h2>Título do Projeto</h2>
+           <p>Lorem ipsum dolor sit amet consectetur.</p>
+           <button>Acessar Demo</button>
+      </div>
+
+      <div className="item-galeria">
+           <h2>Título do Projeto</h2>
+           <p>Lorem ipsum dolor sit amet consectetur.</p>
+           <button>Acessar Demo</button>
+      </div>
+
+      <div className="item-galeria">
+           <h2>Título do Projeto</h2>
+           <p>Lorem ipsum dolor sit amet consectetur.</p>
+           <button>Acessar Demo</button>
+      </div>
+      
       </div>
       </div>
       )

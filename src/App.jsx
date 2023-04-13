@@ -12,7 +12,8 @@ function App() {
   return(
     <div>
     <Menu/>
-    <LadoinformacoesHome/>
+    <Portfolio/>
+    <DevCounter/>
     </div>
   )
 

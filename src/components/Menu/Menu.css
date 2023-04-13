@@ -35,10 +35,10 @@ ul{
 
 /* RESPONSIVIDADE */
 
-@media(min-width: 320px) and (max-width:1024px) {
+@media(min-width: 768px) and (max-width:1024px) {
 .divMenu{
   position: unset;
-  width: 100vw;
+  width: 74vw;
   height: 20vh;
   flex-direction: column-reverse;
   justify-content: center;
@@ -48,10 +48,30 @@ ul{
 ul{
   display: flex;
   width: 100vw;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 }
 
+@media(min-width: 320px) and (max-width:425px) {
+  .divMenu{
+    position: unset;
+    width: 100vw;
+    height: 18vh;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  ul{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+  }
+  .logo{
+    margin-top: 19vh;
+  }
+}
 
 
