@@ -1,0 +1,76 @@
+.mainContentContact {
+  margin-left: 50vh;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vh;
+  }
+
+  .contactTitle{
+  background: linear-gradient(91.64deg, #C67DF5 5.57%, #C3BFF3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+}
+
+.textContentContact{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+  max-width: 26vw;
+  margin-bottom: 30px;
+}
+
+.contactCard{
+  background: linear-gradient(97.55deg, #EDBBF1 0%, #ACBFF2 100%);
+  width: 27vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.contactFormTitle{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #3E3E3E;
+}
+
+.formTitles{
+  margin: 10px;
+}
+
+.contentContactForm{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: .8rem;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #3E3E3E;
+}
+
+.contactIcon
+{
+  margin: 10px;
+  width: 24px;
+  height: 24px;
+}

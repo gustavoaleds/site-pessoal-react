@@ -1,0 +1,62 @@
+.mainContent {
+  margin-left: 70vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+   .mainTitle{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    background: linear-gradient(89.93deg, #C67DF5 1.45%, #6B90F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .subTitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+  }
+
+  .textContent{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    max-width: 35vw;
+    margin-bottom: 30px;
+  }
+
+  .mainButton{
+    border: transparent;
+    width: 186px;
+    height: 41px;
+    background: linear-gradient(90.54deg, #EDBBF1 0.3%, #6B90F1 99.54%);
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #F7F7F7;
+  }
+
+  .mainContacts{
+    margin-top:15vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainContacts p{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 13px;
+  }

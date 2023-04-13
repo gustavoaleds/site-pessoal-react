@@ -1,0 +1,49 @@
+.divCounter{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24.99vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(180deg, #ACBFF2 0%, #EFB9EF 100%);
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titleCounter
+{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #410550;
+}
+
+.footerCounter{
+  text-transform: uppercase;
+}
+
+.counterNumber{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 75px;
+  color: #410550;
+}
+
+.typeCounter{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contadoresPart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
