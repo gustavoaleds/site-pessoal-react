@@ -10,6 +10,13 @@
   align-items: center;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  font-weight: bold;
+}
 /* ELEMENTOS DO MENU */
 li {
   text-transform: uppercase;
