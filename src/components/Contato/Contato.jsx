@@ -8,7 +8,7 @@ function Contato(){
 return(
   <div className="mainContentContact">
   <h1 className="contactTitle">Contato</h1>
-  <p className="textContentContact">Gostou do meu trabalho? Você pode falar comigo pelos meios de comunicação abaixo ou pelo campo ao lado. </p>
+  <p className="textContentContact">Gostou do meu trabalho? Você pode falar comigo pelos meios de comunicação abaixo ou pelo formulário. </p>
   <div className="contactCard">
     <section className="contactForm">
     <img className="contactIcon" src={phoneIcon} alt="Icone de telefone"/>

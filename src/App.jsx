@@ -12,8 +12,8 @@ function App() {
   return(
     <div>
     <Menu/>
-    <Portfolio/>
-    <DevCounter/>
+    <Contato/>
+    <Formulario/>
     </div>
   )
 

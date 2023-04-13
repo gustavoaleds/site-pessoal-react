@@ -74,3 +74,74 @@
   width: 24px;
   height: 24px;
 }
+
+@media(min-width: 768px) and (max-width:1024px) {
+
+  .mainContentContact{
+    height: unset;
+    margin-top: 8vh;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75vw;
+  }
+
+  .contactTitle{
+
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.75rem;
+    margin-top: 0;
+    width: 100vw;
+    text-align: center;
+}
+.textContentContact{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+  max-width: 40vw;
+  margin-bottom: 30px;
+}
+}
+
+@media(min-width: 320px) and (max-width:425px) {
+  .mainContentContact{
+    height: unset;
+    margin-top: 20vh;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .textContentContact{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: justify;
+    max-width: 80vw;
+    margin-bottom: 30px;
+  }
+
+  .contactTitle{
+    font-size: 80px;
+  }
+
+  .contactCard{
+    background: linear-gradient(97.55deg, #EDBBF1 0%, #ACBFF2 100%);
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}
