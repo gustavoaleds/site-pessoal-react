@@ -32,3 +32,26 @@ ul{
 .selected{
   font-weight: bold;
 }
+
+/* RESPONSIVIDADE */
+
+@media(min-width: 320px) and (max-width:1024px) {
+.divMenu{
+  position: unset;
+  width: 100vw;
+  height: 20vh;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+}
+
+
+

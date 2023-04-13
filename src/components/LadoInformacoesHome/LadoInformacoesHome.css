@@ -49,14 +49,106 @@
     text-align: center;
     color: #F7F7F7;
   }
+  .mainButton:hover{
+    scale: 1.05;
+    background: linear-gradient(90.54deg, #e869f1 0.3%, #4273f0 99.54%);
+    color: #F7F7F7;
+  }
 
   .mainContacts{
     margin-top:15vh;
     display: flex;
     flex-direction: column;
   }
+
   .mainContacts p{
     margin-bottom: 15px;
     font-weight: 600;
     font-size: 13px;
+  }
+
+
+  @media(min-width: 426px) and (max-width:1024px) {
+    ul{
+      margin-top: 5vh;
+    }
+    .mainContent {
+      height: unset;
+      margin-top:15vh;
+      margin-left: unset;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+
+      .mainTitle{
+        font-size: 110px;
+      }
+
+      .textContent{
+
+        font-size: 20px;
+        line-height: 35px;
+        text-align: justify;
+        max-width: 80vw;
+        margin-bottom: 30px;
+      }
+
+      .mainContacts{
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: row;
+        width: 100vh;
+        justify-content: space-evenly;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+      margin-top:14vh;
+    }
+  }
+
+  @media(min-width: 320px) and (max-width:425px) {
+
+    div {
+      display: flex;
+      flex-direction: column;}
+
+    .mainContent {
+      height: unset;
+      margin-top:25vh;
+      margin-left: unset;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+
+      .mainTitle{
+        font-size: 55px;
+      }
+      .textContent{
+
+        font-size: 15px;
+        line-height: 35px;
+        text-align: justify;
+        max-width: 80vw;
+        margin-bottom: 30px;
+      }
+
+      .subTitle{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 41px;
+      }
+
+      .mainContacts{
+        margin-top: 3vh;
+      }
+
   }
