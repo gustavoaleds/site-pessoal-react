@@ -13,7 +13,7 @@ function Portfolio(){
         <div key={index} className="item-galeria">
           <h2>{item.titulo}</h2>
           <p>{item.resumo}</p>
-          <button><a href={item.link}>Acessar Demo</a></button>
+          <button className="buttonName"><a target="_blank" href={item.link}>Acessar Demo</a></button>
         </div>))}
         </div>
         </div>

@@ -64,6 +64,9 @@ button{
   color: white;
   border-radius: 10px;
 }
+.buttonName a{
+  color:white;
+}
 
 .mainContentPortfolio h1{
     background: linear-gradient(91.64deg, #C67DF5 5.57%, #C3BFF3 100%);
