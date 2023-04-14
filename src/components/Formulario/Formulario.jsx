@@ -4,9 +4,6 @@ function Formulario() {
 
 
 const enviarMensagem = () => {
-  console.log('A função foi chamada!')
-
-
 const nome = document.querySelector('.nome').value;
 const email = document.querySelector('.email').value;
 const mensagem = document.querySelector('.mensagem').value;

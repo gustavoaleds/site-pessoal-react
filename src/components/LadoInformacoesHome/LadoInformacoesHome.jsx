@@ -6,7 +6,7 @@ function LadoinformacoesHome(){
     <h1 className="mainTitle">Gustavo Alexandre</h1>
     <p className="subTitle">Software Developer</p>
     <p className="textContent">Sou um desenvolvedor de software em formação. Tenho paixão pelo front-end e sempre em busca de desafios e novas coisas para aprender. </p>
-    <button className="mainButton">Download CV</button>
+    <a href="/CV_GUSTAVO.pdf" download><button className="mainButton">Download CV</button></a>
     <section className="mainContacts">
       <p>gualeds@gmail.com</p>
       <p>+55 81 99851-5887</p>
