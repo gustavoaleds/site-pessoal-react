@@ -1,4 +1,11 @@
+{"itemDaGaleria":[
 {
-  "titulo":["Nexus Society", "GA", "ALEDS"],
-  "resumo":["Site fantasia para um clube ou fórum.", "Primeira versão de meu portfólio, feita em HTML, CSS e JS.", "Meu portfólio atual, feito em React."]
+  "titulo":"Nexus Society",
+  "resumo":"Site fantasia para um clube ou fórum."
+},
+{
+  "titulo":"Nexus Society",
+  "resumo":"Site fantasia para um clube ou fórum."
+}
+]
 }
