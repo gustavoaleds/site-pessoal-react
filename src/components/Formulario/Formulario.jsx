@@ -6,12 +6,13 @@ function Formulario() {
     <div className="formSide">
       <h1>Envie-me uma mensagem</h1>
       <form>
-        <input type="name" placeholder="Nome"/>
-        <input type="email" placeholder="E-mail"/>
-        <input type="text" placeholder="Mensagem"/>
-        <input type="submit"/>
+        <input className="nome" type="name" placeholder="Nome"/>
+        <input className="email" type="email" placeholder="E-mail"/>
+        <input className="mensagem"type="text" placeholder="Mensagem"/>
+        <input className="botaoEnviar" type="submit"/>
       </form>
     </div>
   )}
+
 
 export default Formulario;

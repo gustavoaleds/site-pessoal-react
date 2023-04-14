@@ -101,7 +101,7 @@ button{
     width: 99vw;
     margin-left: unset;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 2vh;
   }
 

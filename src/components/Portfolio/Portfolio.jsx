@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-
+import Dados from "./Portfolio.json"
 function Portfolio(){
   return(
     <div className="mainContentPortfolio">
@@ -8,41 +8,23 @@ function Portfolio(){
     <div className="galeria">
 
       <div className="item-galeria">
-           <h2>Título do Projeto</h2>
-           <p>Lorem ipsum dolor sit amet consectetur.</p>
+           <h2>{Dados.titulo[0]}</h2>
+           <p>{Dados.resumo[0]}</p>
            <button>Acessar Demo</button>
       </div>
 
       <div className="item-galeria">
-           <h2>Título do Projeto</h2>
-           <p>Lorem ipsum dolor sit amet consectetur.</p>
+           <h2>{Dados.titulo[1]}</h2>
+           <p>{Dados.resumo[1]}</p>
            <button>Acessar Demo</button>
       </div>
 
       <div className="item-galeria">
-           <h2>Título do Projeto</h2>
-           <p>Lorem ipsum dolor sit amet consectetur.</p>
+           <h2>{Dados.titulo[2]}</h2>
+           <p>{Dados.resumo[2]}</p>
            <button>Acessar Demo</button>
       </div>
 
-      <div className="item-galeria">
-           <h2>Título do Projeto</h2>
-           <p>Lorem ipsum dolor sit amet consectetur.</p>
-           <button>Acessar Demo</button>
-      </div>
-
-      <div className="item-galeria">
-           <h2>Título do Projeto</h2>
-           <p>Lorem ipsum dolor sit amet consectetur.</p>
-           <button>Acessar Demo</button>
-      </div>
-
-      <div className="item-galeria">
-           <h2>Título do Projeto</h2>
-           <p>Lorem ipsum dolor sit amet consectetur.</p>
-           <button>Acessar Demo</button>
-      </div>
-      
       </div>
       </div>
       )
