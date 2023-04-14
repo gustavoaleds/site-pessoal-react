@@ -13,7 +13,7 @@ function DevCounter() {
         <h3 className="counterNumber">{Dados.ProjetosEmAndamento}</h3>
         <p className="typeCounter">Projetos em andamento</p>
       </section>
-      <h4 className="footerCounter">Veja Mais em meu Github.</h4>
+      <a href="https://github.com/gustavoaleds?tab=repositories"><h4 className="footerCounter">Veja Mais em meu Github.</h4></a>
     </div>
   )}
 
