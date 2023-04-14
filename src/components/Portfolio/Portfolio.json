@@ -2,12 +2,12 @@
 {
   "titulo":"GA",
   "resumo":"Primeira versão de meu site pessoal, desenvolvido enquanto no Comeia Academy 2023.",
-  "link":"'https://portfolio-pessoal-iota.vercel.app/'"
+  "link":"https://portfolio-pessoal-iota.vercel.app/"
 },
 {
   "titulo":"Nexus Society",
   "resumo":"Site fantasia para um clube ou fórum.",
-  "link": "'https://nexus-society.vercel.app/'"
+  "link": "https://nexus-society.vercel.app/"
 }
 ]
 }
