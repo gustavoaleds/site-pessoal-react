@@ -7,7 +7,7 @@ function ContatoPage() {
 return(
 <div>
     <Menu/>
-    <Contato/>
+    <Contato email="gualeds@gmail.com" telefone="+55 81 99851-5887" linkedin="/Gualeds"/>
     <Formulario/>
   </div>
 )

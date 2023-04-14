@@ -6,7 +6,7 @@ function Home() {
 return(
 <div>
     <Menu/>
-    <LadoInformacoesHome/>
+    <LadoInformacoesHome telefone="+55 81 998515887" email="gualeds@gmail.com"/>
   </div>
 )
 }
