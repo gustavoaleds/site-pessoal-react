@@ -1,21 +1,23 @@
 import React from "react";
 import "./Portfolio.css";
-import Dados from "./Portfolio.json"
 
-function Portfolio(){
-  return(
+function Portfolio({projetos}) {
 
+  return (
     <div className="mainContentPortfolio">
-    <h1>Portfolio</h1>
-    <div className="galeria">
-
-      {Dados.itemDaGaleria.map((item, index) => (
-        <div key={index} className="item-galeria">
-          <h2>{item.titulo}</h2>
-          <p>{item.resumo}</p>
-          <a target="_blank" href={item.link}><button className="buttonName">Acessar Demo</button></a>
-        </div>))}
-        </div>
-        </div>
-      )}
+      <h1>Portfolio</h1>
+      <div className="galeria">
+        {projetos.map((item, index) => (
+          <div key={index} className="item-galeria">
+            <h2>{item.nome}</h2>
+            <p>{item.descricao}</p>
+            <a target="_blank" href={item.link}>
+              <button className="buttonName">Acessar Demo</button>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 export default Portfolio;
